@@ -1,4 +1,8 @@
 #!/usr/bin/php
+# Unraid User Script for sending UPS monitoring data to InfluxDb>2.0+ for display in grafana
+# Created/Modified by Jamie Owens/Interbiznw.com
+# previous reference for Old influxdb https://technicalramblings.com/blog/setting-grafana-influxdb-telegraf-ups-monitoring-unraid
+
 <?php
 
 $command = "apcaccess";
